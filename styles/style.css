@@ -97,14 +97,14 @@ b{
 .candies-list{
     display: flex;
     flex-wrap: wrap;
-   
-   
+
 }
 
 .candy{
 
     box-shadow: var(--shadow); 
     margin: 15px;
+    background-color: rgb(247, 231, 12);
 }
 
 .dogs-list{
@@ -117,6 +117,7 @@ b{
 
     box-shadow: var(--shadow); 
     margin: 15px;
+    background-color: rgb(12, 134, 247);
 }
 
 .presidents-list{
@@ -130,11 +131,13 @@ b{
 
     box-shadow: var(--shadow); 
     margin: 15px;
+    background-color: rgb(247, 20, 12);
 }
 
 .basketball-players-list{
     display: flex;
     flex-wrap: wrap;
+    
     
 }
 
@@ -142,4 +145,5 @@ b{
 
     box-shadow: var(--shadow); 
     margin: 15px;
+    background-color: rgb(12, 247, 32);
 }
