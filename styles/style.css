@@ -39,7 +39,7 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
-section {
+/* section {
     background-color: var(--color5);
     max-width: 80%;
     display: flex;
@@ -51,7 +51,7 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
-}
+} */
 
 header {
     display: flex;
@@ -88,4 +88,58 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+b{
+    font-weight: bold;
+}
+
+.candies-list{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.candy{
+
+    box-shadow: var(--shadow); 
+    margin: 15px;
+}
+
+.dogs-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.dog{
+
+    box-shadow: var(--shadow); 
+    margin: 15px;
+}
+
+.presidents-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.president{
+
+    box-shadow: var(--shadow); 
+    margin: 15px;
+}
+
+.basketball-players-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.player{
+
+    box-shadow: var(--shadow); 
+    margin: 15px;
 }
